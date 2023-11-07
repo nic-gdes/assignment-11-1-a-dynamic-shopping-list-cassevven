@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping list example</title>
+    <style>
+
+      ul {
+        list-style-type: none;
+      }
+
+      li {
+        margin-bottom: 10px;
+        font-size: 24px;
+      }
+
+      li button {
+        font-size: 12px;
+        margin-left: 20px;
+        color: #666;
+        padding: 10px;
+      }
+      
+      body {
+        display: flex;
+        justify-content: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+      }
+  
+    </style>
+    </head>
+    <body>
+      <div class="container">
+      <h1>My shopping list</h1>
+  
+      <div><section class="form">
+      <form id="addToList">
+
+      <label for="item">Enter a new item:</label>
+      <input type="text" name="item" id="item">
+
+      <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+      </section>
+      <div>
+      <ul id="list">
+      </ul>
+      </div>
+      <script src="script.js"></script>
+      </div>
+    </body>
+</html>
